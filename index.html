@@ -14,10 +14,10 @@
   <body>
     <!-- navbar -->
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary py-3 py-lg-2">
+      <nav class="navbar navbar-expand-lg bg-white">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="./assets/logo.svg" alt="Bootstrap" width="35" />
+            <img src="./assets/logo.svg" alt="logo" />
           </a>
           <div class="d-flex order-lg-3">
             <button
@@ -37,7 +37,7 @@
                   d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6"
                 ></path>
               </svg>
-              <span class="position-absolute top-0 start-75 p-1 bg-danger border border-light rounded-circle"> </span>
+              <span class="dot position-absolute top-0 start-75 p-1 bg-danger border border-light rounded-circle"> </span>
             </button>
             <button type="button" class="btn me-3 order-1 p-0 position-relative rounded-circle" style="width: 50px; height: 50px">
               <img src="./assets/avatar-1.jpg" width="100%" class="rounded-circle" alt="" />
@@ -87,188 +87,192 @@
       </nav>
     </header>
 
-    <div class="container-fluid">
-      <!-- hero -->
-      <section class="row hero bg-primary p-3 pb-0 p-lg-5 py-lg-0">
-        <div class="col col-12 col-lg-6 mb-4 d-flex flex-column justify-content-center">
-          <h1 class="display-4">Welcome Web Students!</h1>
-          <p>Hand-picked Instructor and expertly crafted courses, designed for the modern students and entrepreneur</p>
-          <div>
-            <button type="button" class="btn btn-success py-2 px-3 fs-6">Browse Courses</button>
-            <button type="button" class="btn btn-light py-2 px-3 fs-6">Are You Instructor?</button>
-          </div>
-        </div>
-        <div class="col col-12 col-lg-6"><img src="./assets/hero-img.png" width="100%" alt="" /></div>
-      </section>
-      <!-- under hero -->
-      <div class="row px-3 py-3 px-lg-5 g-3 border-bottom shadow-lg">
-        <div class="col col-12 col-lg-4">
-          <div class="row">
-            <div class="col col-2 p-0">
-              <div class="bg-warning-subtle rounded-circle d-flex justify-content-center align-items-center" style="width: 65px; height: 65px">
-                <div class="">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="orange" class="bi bi-camera-video" viewBox="0 0 16 16">
-                    <path
-                      fill-rule="evenodd"
-                      d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1z"
-                    />
-                  </svg>
-                </div>
-              </div>
-            </div>
-            <div class="col col-10">
-              <h5>30,000 online courses</h5>
-              <p>Enjoy a variety of fresh topics</p>
+    <!-- hero -->
+    <section class="bg-primary hero">
+      <div class="container">
+        <div class="row">
+          <div class="col col-12 col-md-6 col-lg-5 d-flex py-4">
+            <div class="my-auto">
+              <h1 class="text-white fw-bold">Welcome Web Students!</h1>
+              <p class="text-white opacity-50">Hand-picked Instructor and expertly crafted courses, designed for the modern students and entrepreneur</p>
+              <button type="button" class="btn btn-success mb-1 mb-sm-0">Browse Courses</button>
+              <button type="button" class="btn btn-light mb-1 mb-sm-0">Are You Instructor?</button>
             </div>
           </div>
-        </div>
-        <div class="col col-12 col-lg-4">
-          <div class="row">
-            <div class="col col-2 p-0">
-              <div class="bg-warning-subtle rounded-circle d-flex justify-content-center align-items-center" style="width: 65px; height: 65px">
-                <div class="">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="orange" class="bi bi-people" viewBox="0 0 16 16">
-                    <path
-                      d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4"
-                    />
-                  </svg>
-                </div>
-              </div>
-            </div>
-            <div class="col col-10">
-              <h5 class="fs-">Expert instruction</h5>
-              <p>Find the right instructor for you</p>
-            </div>
+          <div class="col col-12 col-md-6 col-lg-6 offset-lg1 text-center d-flex align-items-end">
+            <img src="./assets/hero-img.png" class="img-fluid" alt="image happy student" />
           </div>
         </div>
-        <div class="col col-12 col-lg-4">
-          <div class="row">
-            <div class="col col-2 p-0">
-              <div class="bg-warning-subtle rounded-circle d-flex justify-content-center align-items-center" style="width: 65px; height: 65px">
-                <div class="">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="orange" class="bi bi-clock" viewBox="0 0 16 16">
-                    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
-                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
-                  </svg>
-                </div>
+      </div>
+    </section>
+    <!-- under hero -->
+    <div class="row px-3 py-3 px-lg-5 g-3 border-bottom shadow-lg">
+      <div class="col col-12 col-lg-4">
+        <div class="row">
+          <div class="col col-2 p-0">
+            <div class="bg-warning-subtle rounded-circle d-flex justify-content-center align-items-center" style="width: 65px; height: 65px">
+              <div class="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="orange" class="bi bi-camera-video" viewBox="0 0 16 16">
+                  <path
+                    fill-rule="evenodd"
+                    d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1z"
+                  />
+                </svg>
               </div>
             </div>
-            <div class="col col-10">
-              <h5>Lifetime access</h5>
-              <p>Learn on your schedule</p>
+          </div>
+          <div class="col col-10">
+            <h5>30,000 online courses</h5>
+            <p>Enjoy a variety of fresh topics</p>
+          </div>
+        </div>
+      </div>
+      <div class="col col-12 col-lg-4">
+        <div class="row">
+          <div class="col col-2 p-0">
+            <div class="bg-warning-subtle rounded-circle d-flex justify-content-center align-items-center" style="width: 65px; height: 65px">
+              <div class="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="orange" class="bi bi-people" viewBox="0 0 16 16">
+                  <path
+                    d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="col col-10">
+            <h5 class="fs-">Expert instruction</h5>
+            <p>Find the right instructor for you</p>
+          </div>
+        </div>
+      </div>
+      <div class="col col-12 col-lg-4">
+        <div class="row">
+          <div class="col col-2 p-0">
+            <div class="bg-warning-subtle rounded-circle d-flex justify-content-center align-items-center" style="width: 65px; height: 65px">
+              <div class="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="orange" class="bi bi-clock" viewBox="0 0 16 16">
+                  <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="col col-10">
+            <h5>Lifetime access</h5>
+            <p>Learn on your schedule</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- reccomended to you -->
+    <div class="my-5 px-3 px-lg-5">
+      <div class="row">
+        <h2>Reccomended to you</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/course-html.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
+                <p class="card-text"><span>3h 16m</span> <span>beginner</span></p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Miston Wilson</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/course-javascript.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
+                <p class="card-text"><span>3h 16m</span> <span>beginner</span></p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Miston Wilson</small>
+              </div>
+            </div>
+          </div>
+          <div class="col d-none d-lg-block">
+            <div class="card h-100">
+              <img src="./assets/course-node.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
+                <p class="card-text"><span>3h 16m</span> <span>beginner</span></p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Miston Wilson</small>
+              </div>
+            </div>
+          </div>
+          <div class="col d-none d-lg-block">
+            <div class="card h-100">
+              <img src="./assets/course-laravel.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
+                <p class="card-text"><span>3h 16m</span> <span>beginner</span></p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Miston Wilson</small>
+              </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
 
-      <!-- reccomended to you -->
-      <div class="my-5 px-3 px-lg-5">
-        <div class="row">
-          <h2>Reccomended to you</h2>
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
-            <div class="col">
-              <div class="card h-100">
-                <img src="./assets/course-html.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
-                  <p class="card-text"><span>3h 16m</span> <span>beginner</span></p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-body-secondary">Miston Wilson</small>
-                </div>
+    <!-- Most popular -->
+    <div class="my-5 px-3 px-lg-5">
+      <div class="row">
+        <h2>Most popular</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/course-html.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
+                <p class="card-text"><span>3h 16m</span> <span>beginner</span></p>
               </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src="./assets/course-javascript.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
-                  <p class="card-text"><span>3h 16m</span> <span>beginner</span></p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-body-secondary">Miston Wilson</small>
-                </div>
-              </div>
-            </div>
-            <div class="col d-none d-lg-block">
-              <div class="card h-100">
-                <img src="./assets/course-node.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
-                  <p class="card-text"><span>3h 16m</span> <span>beginner</span></p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-body-secondary">Miston Wilson</small>
-                </div>
-              </div>
-            </div>
-            <div class="col d-none d-lg-block">
-              <div class="card h-100">
-                <img src="./assets/course-laravel.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
-                  <p class="card-text"><span>3h 16m</span> <span>beginner</span></p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-body-secondary">Miston Wilson</small>
-                </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Miston Wilson</small>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-
-      <!-- Most popular -->
-      <div class="my-5 px-3 px-lg-5">
-        <div class="row">
-          <h2>Most popular</h2>
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
-            <div class="col">
-              <div class="card h-100">
-                <img src="./assets/course-html.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
-                  <p class="card-text"><span>3h 16m</span> <span>beginner</span></p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-body-secondary">Miston Wilson</small>
-                </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/course-javascript.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
+                <p class="card-text"><span>3h 16m</span> <span>beginner</span></p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Miston Wilson</small>
               </div>
             </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src="./assets/course-javascript.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
-                  <p class="card-text"><span>3h 16m</span> <span>beginner</span></p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-body-secondary">Miston Wilson</small>
-                </div>
+          </div>
+          <div class="col d-none d-lg-block">
+            <div class="card h-100">
+              <img src="./assets/course-node.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
+                <p class="card-text"><span>3h 16m</span> <span>beginner</span></p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Miston Wilson</small>
               </div>
             </div>
-            <div class="col d-none d-lg-block">
-              <div class="card h-100">
-                <img src="./assets/course-node.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
-                  <p class="card-text"><span>3h 16m</span> <span>beginner</span></p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-body-secondary">Miston Wilson</small>
-                </div>
+          </div>
+          <div class="col d-none d-lg-block">
+            <div class="card h-100">
+              <img src="./assets/course-laravel.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
+                <p class="card-text"><span>3h 16m</span> <span>beginner</span></p>
               </div>
-            </div>
-            <div class="col d-none d-lg-block">
-              <div class="card h-100">
-                <img src="./assets/course-laravel.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
-                  <p class="card-text"><span>3h 16m</span> <span>beginner</span></p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-body-secondary">Miston Wilson</small>
-                </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Miston Wilson</small>
               </div>
             </div>
           </div>
